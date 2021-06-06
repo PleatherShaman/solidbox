@@ -4,7 +4,7 @@ import "./navbar.css";
 export const Navbar = () => {
     return (
         <div className="navbar-continer">
-            <div className="logo-image">
+            <div className="logo-image-container">
                 <img
                     className="logo-image"
                     src="./solidbox_logo.jpg"
@@ -14,7 +14,7 @@ export const Navbar = () => {
 
             <div className="logo-text-container">
                 <div className="logo-text">Solidbox</div>
-                <div className="logo-subheading">Safe and secure</div>
+                {/* <div className="logo-subheading">Safe and secure</div> */}
             </div>
         </div>
     );

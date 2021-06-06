@@ -1,0 +1,16 @@
+.alert-container {
+    width: 100%;
+}
+
+.alert {
+    font-size: 12px;
+    text-align: center;
+}
+
+.red {
+    color: lightcoral;
+}
+
+.green {
+    color: lightgreen;
+}
