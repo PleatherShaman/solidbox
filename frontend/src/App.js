@@ -160,7 +160,7 @@ function App() {
                 <div className={"info-container"}>
                     <h2>What is Solidbox?</h2>
                     <p>
-                        Solidbox is a smart contract that holds a Etherium
+                        Solidbox is a smart contract that holds Etherium
                         whilst business transactions are occuring. Once all
                         parties of the transaction are satsified that the
                         transaction is complete, the funds will get released.
