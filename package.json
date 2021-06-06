@@ -1,0 +1,23 @@
+{
+  "name": "solidbox",
+  "version": "1.0.0",
+  "description": "A smart contract that acts as a holding box for payments until two parties agree on completion of a service.",
+  "main": "compile.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.1",
+    "solc": "^0.4.17",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "^1.3.6"
+  }
+}
