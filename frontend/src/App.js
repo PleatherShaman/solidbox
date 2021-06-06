@@ -237,7 +237,7 @@ function App() {
 
                                 <div className="current-job-item">
                                     <div className="bold item-label">
-                                        gwei Required:{" "}
+                                        wei Required:{" "}
                                     </div>
                                     {currentJob.gweiRequired}
                                 </div>

@@ -103,7 +103,7 @@ export const NewJobForm = (props) => {
 
                                 <div className="form-item">
                                     <div className="form-label">
-                                        <div>gwei required:</div>
+                                        <div>wei required:</div>
                                         {errors.gweiRequired &&
                                         touched.gweiRequired ? (
                                             <div className="error">
