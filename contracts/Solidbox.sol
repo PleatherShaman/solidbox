@@ -36,7 +36,7 @@ contract Solidbox {
     }
     
     function payDeposit() public payable {
-       require(msg.value >= currentJob.gweiRequired, "Please send the correct amount of etherium");
+       require(msg.value >= currentJob.gweiRequired, "Please send the correct amount of ether");
        serviceBuyer = msg.sender;
        currentJob.etherPaid = true;
     }
@@ -54,12 +54,12 @@ contract Solidbox {
     }
 
     modifier sellerOnly() {
-        require(msg.sender == serviceSeller);
+        require(msg.sender == serviceSeller, "Not authorised to make this function call");
         _;
     }
     
       modifier buyerOnly() {
-        require(msg.sender == serviceBuyer);
+        require(msg.sender == serviceBuyer, "Not authorised to make this function call");
         _;
     }   
 }
